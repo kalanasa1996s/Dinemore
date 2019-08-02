@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="786.0" prefWidth="1176.0" styleClass="fullPain" stylesheets="@../css/Style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dinemore.controller.AdminDashBordController">
+   <children>
+      <AnchorPane prefHeight="786.0" prefWidth="152.0" style="-fx-background-color: white;">
+         <children>
+            <JFXButton layoutX="19.0" layoutY="131.0" prefHeight="33.0" prefWidth="106.0" text="Home" />
+            <ImageView fitHeight="45.0" fitWidth="51.0" layoutX="48.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/home.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="34.0" layoutY="227.0" prefHeight="22.0" prefWidth="74.0" text="Food" />
+            <JFXButton layoutX="33.0" layoutY="344.0" text="Reception" />
+            <JFXButton layoutX="47.0" layoutY="463.0" text="Chef" />
+            <JFXButton layoutX="44.0" layoutY="550.0" text="Deliver" />
+            <JFXButton layoutX="44.0" layoutY="647.0" text="Report" />
+            <JFXButton layoutX="35.0" layoutY="726.0" text="Customer" />
+            <ImageView fitHeight="45.0" fitWidth="38.0" layoutX="52.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/foods.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="52.0" fitWidth="51.0" layoutX="45.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/recption.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="63.0" fitWidth="80.0" layoutX="41.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/chef.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="50.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/dilivery.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="45.0" layoutX="54.0" layoutY="601.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/Reports.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="54.0" layoutX="48.0" layoutY="678.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/Customer.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="153.0" layoutY="3.0" prefHeight="87.0" prefWidth="1019.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="191.0" layoutX="13.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/dinemore-Banner.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="154.0" layoutY="92.0" prefHeight="689.0" prefWidth="1018.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="63.0" fitWidth="65.0" layoutX="460.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="63.0" fitWidth="74.0" layoutX="307.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
